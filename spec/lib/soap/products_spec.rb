@@ -1,5 +1,5 @@
 require "savon/mock/spec_helper"
-require 'pp'
+
 describe Citybreak::SOAP::Products do
   include Savon::SpecHelper
 

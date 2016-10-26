@@ -20,9 +20,6 @@ or in Gemfile
 ## Not Available (yet?)
 - Online 3 Linking API
 - Online 3 Event REST API
-- Online 3 Widgets
-- Online3 Booking tracking
-- Online 3 Body-tag special CSS classes
 - Citybreak booking Statfeed API
 - CBIS Export API
 
@@ -34,7 +31,7 @@ or in Gemfile
 client = Citybreak::SOAP::Client.new(api_key: 'API_KEY')
 ```
 
-Or you can also set the skip api_key option if you configurated it before
+Or you can also skip to set the api_key option if you configurated it before
 ```ruby
 Citybreak.config do |config|
   api_key = 'API_KEY'
@@ -67,6 +64,19 @@ client.products_operations #=> [:get_products...]
 client.get_products
 # or
 client.get_products(languageId: 1, itemsPerPage: 40)
+```
+
+##### Call specific operation
+If you want to call and handle the result from the Savon client itself you can call operations with this method
+
+```ruby
+## Retrieve all products
+# @param client_type ('products', 'categories' or 'templates')
+# @param operation
+# @param message (optional)
+#
+
+client.call(:products, :list_all, {languageId: 1})
 ```
 
 ## Development

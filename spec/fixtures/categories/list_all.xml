@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <ListAllResponse xmlns="http://api.cbis.citybreak.com/">
+            <ListAllResult>
+                <Nodes>
+                    <TreeNodeOfCategory>
+                        <Data>
+                            <Id>29393</Id>
+                            <OrganizationId>24057</OrganizationId>
+                            <Name>Event</Name>
+                            <DefaultTemplateId>81</DefaultTemplateId>
+                            <Status>Active</Status>
+                            <ParentCategoryId>29389</ParentCategoryId>
+                            <DisplayOrder>2</DisplayOrder><Icon xsi:nil="true"/></Data><Children/></TreeNodeOfCategory>
+                    <TreeNodeOfCategory>
+                        <Data>
+                            <Id>29394</Id>
+                            <OrganizationId>24057</OrganizationId>
+                            <Name>Accommodation</Name>
+                            <DefaultTemplateId>83</DefaultTemplateId>
+                            <Status>Active</Status>
+                            <ParentCategoryId>29389</ParentCategoryId>
+                            <DisplayOrder>3</DisplayOrder><Icon xsi:nil="true"/></Data>
+                        <Children>
+                            <TreeNodeOfCategory>
+                                <Data>
+                                    <Id>29395</Id>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <Name>Bed &amp; Breakfast</Name>
+                                    <DefaultTemplateId>83</DefaultTemplateId>
+                                    <Status>Active</Status>
+                                    <ParentCategoryId>29394</ParentCategoryId>
+                                    <DisplayOrder>4</DisplayOrder><Icon xsi:nil="true"/></Data><Children/></TreeNodeOfCategory>
+                            <TreeNodeOfCategory>
+                                <Data>
+                                    <Id>29396</Id>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <Name>Camping</Name>
+                                    <DefaultTemplateId>83</DefaultTemplateId>
+                                    <Status>Active</Status>
+                                    <ParentCategoryId>29394</ParentCategoryId>
+                                    <DisplayOrder>5</DisplayOrder><Icon xsi:nil="true"/></Data><Children/></TreeNodeOfCategory>
+                            <TreeNodeOfCategory>
+                                <Data>
+                                    <Id>29397</Id>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <Name>Hostel</Name>
+                                    <DefaultTemplateId>83</DefaultTemplateId>
+                                    <Status>Active</Status>
+                                    <ParentCategoryId>29394</ParentCategoryId>
+                                    <DisplayOrder>6</DisplayOrder><Icon xsi:nil="true"/></Data><Children/></TreeNodeOfCategory>
+                            <TreeNodeOfCategory>
+                                <Data>
+                                    <Id>29398</Id>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <Name>Hotel</Name>
+                                    <DefaultTemplateId>83</DefaultTemplateId>
+                                    <Status>Active</Status>
+                                    <ParentCategoryId>29394</ParentCategoryId>
+                                    <DisplayOrder>7</DisplayOrder><Icon xsi:nil="true"/></Data><Children/></TreeNodeOfCategory>
+                            <TreeNodeOfCategory>
+                                <Data>
+                                    <Id>29401</Id>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <Name>Cabin</Name>
+                                    <DefaultTemplateId>83</DefaultTemplateId>
+                                    <Status>Active</Status>
+                                    <ParentCategoryId>29394</ParentCategoryId>
+                                    <DisplayOrder>8</DisplayOrder><Icon xsi:nil="true"/></Data>
+                                <Children>
+                                    <TreeNodeOfCategory>
+                                        <Data>
+                                            <Id>29402</Id>
+                                            <OrganizationId>24057</OrganizationId>
+                                            <Name>Cabin Village</Name>
+                                            <DefaultTemplateId>83</DefaultTemplateId>
+                                            <Status>Active</Status>
+                                            <ParentCategoryId>29401</ParentCategoryId>
+                                            <DisplayOrder>9</DisplayOrder><Icon xsi:nil="true"/></Data><Children/></TreeNodeOfCategory>
+                                    <TreeNodeOfCategory>
+                                        <Data>
+                                            <Id>29403</Id>
+                                            <OrganizationId>24057</OrganizationId>
+                                            <Name>Private cabin</Name>
+                                            <DefaultTemplateId>83</DefaultTemplateId>
+                                            <Status>Active</Status>
+                                            <ParentCategoryId>29401</ParentCategoryId>
+                                            <DisplayOrder>10</DisplayOrder><Icon xsi:nil="true"/></Data><Children/></TreeNodeOfCategory>
+                                </Children>
+                            </TreeNodeOfCategory>
+                        </Children>
+                    </TreeNodeOfCategory>
+                    <TreeNodeOfCategory>
+                        <Data>
+                            <Id>29972</Id>
+                            <OrganizationId>24057</OrganizationId>
+                            <Name>Todo</Name>
+                            <DefaultTemplateId>76</DefaultTemplateId>
+                            <Status>Active</Status>
+                            <ParentCategoryId>29389</ParentCategoryId>
+                            <DisplayOrder>11</DisplayOrder><Icon xsi:nil="true"/></Data>
+                        <Children>
+                            <TreeNodeOfCategory>
+                                <Data>
+                                    <Id>29391</Id>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <Name>Activity</Name>
+                                    <DefaultTemplateId>76</DefaultTemplateId>
+                                    <Status>Active</Status>
+                                    <ParentCategoryId>29972</ParentCategoryId>
+                                    <DisplayOrder>12</DisplayOrder><Icon xsi:nil="true"/></Data>
+                                <Children>
+                                    <TreeNodeOfCategory>
+                                        <Data>
+                                            <Id>29392</Id>
+                                            <OrganizationId>24057</OrganizationId>
+                                            <Name>Golf</Name>
+                                            <DefaultTemplateId>76</DefaultTemplateId>
+                                            <Status>Active</Status>
+                                            <ParentCategoryId>29391</ParentCategoryId>
+                                            <DisplayOrder>13</DisplayOrder><Icon xsi:nil="true"/></Data><Children/></TreeNodeOfCategory>
+                                </Children>
+                            </TreeNodeOfCategory>
+                        </Children>
+                    </TreeNodeOfCategory>
+                </Nodes>
+            </ListAllResult>
+        </ListAllResponse>
+    </soap:Body>
+</soap:Envelope>

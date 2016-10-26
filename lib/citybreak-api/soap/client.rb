@@ -16,6 +16,29 @@ module Citybreak
         @categories_client = Savon.client(wsdl: Citybreak.config.wsdl_categories)
         @templates_client = Savon.client(wsdl: Citybreak.config.wsdl_templates)
       end
+
+      def call(client, operation, message={})
+        options = {}
+        options[:languageId] = 2
+        options[:apiKey] = Citybreak.config.api_key
+        msg = options.merge(message)
+        get_client(client).call(:list_all, message: msg)#.hash
+      end
+
+      private
+
+      def get_client(type)
+        case type.to_sym
+        when :products
+          @products_client
+        when :categories
+          @categories_client
+        when :templates
+          @templates_client
+        else
+          raise Citybreak::Error::NoSuchClientType
+        end
+      end
     end
   end
 end
