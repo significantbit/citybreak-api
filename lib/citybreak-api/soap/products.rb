@@ -3,7 +3,7 @@ module Citybreak
     module Products
 
       DEFAULT_OPTIONS = {
-        languageId: 1,
+        languageId: 2,
         categoryId: 0,
         templateId: 0,
         pageOffset: 0,
