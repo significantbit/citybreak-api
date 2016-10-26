@@ -22,7 +22,7 @@ module Citybreak
         options[:languageId] = 2
         options[:apiKey] = Citybreak.config.api_key
         msg = options.merge(message)
-        get_client(client).call(:list_all, message: msg)#.hash
+        get_client(client).call(:list_all, message: msg)
       end
 
       private
