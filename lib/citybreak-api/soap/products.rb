@@ -31,7 +31,6 @@ module Citybreak
       def get_products(options={})
         options[:apiKey] = Citybreak.config.api_key
         msg = DEFAULT_OPTIONS.merge(options)
-        puts msg
         @products_client.call(:list_all, message: msg).hash[:envelope][:body][:list_all_response][:list_all_result]
       end
     end
