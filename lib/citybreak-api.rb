@@ -2,6 +2,8 @@ require_relative 'citybreak-api/error'
 require_relative 'citybreak-api/config'
 require_relative 'citybreak-api/soap'
 
+require 'savon'
+
 module Citybreak
   def self.config(&block)
     if block_given?

@@ -28,4 +28,45 @@ or in Gemfile
 
 ## Usage
 
+### CBIS SOAP API
+#### Setup a SOAP client
+```ruby
+client = Citybreak::SOAP::Client.new(api_key: 'API_KEY')
+```
+
+Or you can also set the skip api_key option if you configurated it before
+```ruby
+Citybreak.config do |config|
+  api_key = 'API_KEY'
+end
+client = Citybreak::SOAP::Client.new
+```
+
+#### Methods
+
+##### Products
+
+###### products_operations
+If you want to expose all available operations call:
+```ruby
+client.products_operations #=> [:get_products...]
+```
+
+###### get_products
+```ruby
+## Retrieve all products
+# @param options (optional)
+# returns {
+#  :total_results => ..,
+#  :total_pages => ..,
+#  :page_index => ..,
+#  :page_size => ..,
+#  :items => {:products => [...]}
+# }
+
+client.get_products
+# or
+client.get_products(languageId: 1, itemsPerPage: 40)
+```
+
 ## Development
