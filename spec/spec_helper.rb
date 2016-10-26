@@ -1,8 +1,8 @@
 require 'simplecov'
-require 'citybreak-api'
-
 SimpleCov.start
 
+require 'bundler/setup'
+Bundler.require :default, :test
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
