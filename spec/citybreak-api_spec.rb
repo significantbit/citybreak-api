@@ -17,5 +17,10 @@ describe Citybreak do
 
       expect(Citybreak.config.api_key).to eq('api-key')
     end
+
+    it 'should update wsdl endpoint when endpoint updates' do
+      Citybreak.config.api_endpoint = 'http://test.com'
+      expect(Citybreak.config.wsdl_products).to eq('http://test.com/Products.asmx?WSDL')
+    end
   end
 end
