@@ -1,0 +1,7 @@
+language: ruby
+before_install: gem install bundler
+bundler_args: --jobs=2
+rvm:
+  - 2.3.1
+script:
+  - bundle exec rspec
