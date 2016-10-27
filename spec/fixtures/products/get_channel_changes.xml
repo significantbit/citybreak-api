@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetChannelChangesResponse xmlns="http://api.cbis.citybreak.com/">
+            <GetChannelChangesResult>
+                <QueryTime>2016-10-10T02:00:00+02:00</QueryTime><AddedProductIds/><DeletedProductIds/>
+                <UpdatedProduct>
+                    <int>7574325</int>
+                    <int>9203163</int>
+                    <int>9203169</int>
+                    <int>11106352</int>
+                    <int>13690615</int>
+                </UpdatedProduct>
+            </GetChannelChangesResult>
+        </GetChannelChangesResponse>
+    </soap:Body>
+</soap:Envelope>

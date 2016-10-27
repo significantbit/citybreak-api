@@ -81,6 +81,23 @@ client.get_product(123)
 client.get_product(123, languageId: 1)
 ```
 
+###### get_products_changes
+```ruby
+## Retrieve changes to products since specific date
+# (Date can't be older then 30 days)
+# @param date
+# @param options (optional)
+# returns {
+#  :updated_product => [...],
+#  :added_product => [...],
+#  :deleted_product => [...],
+# }
+
+client.get_products_changes('2016-01-01')
+# or
+client.get_products_changes(Date.today)
+```
+
 ##### Call specific operation
 If you want to call and handle the result from the Savon client itself you can call operations with this method
 

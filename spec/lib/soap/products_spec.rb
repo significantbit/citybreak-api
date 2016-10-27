@@ -38,6 +38,24 @@ describe Citybreak::SOAP::Products do
     end
   end
 
+  describe '.get_products_changes' do
+    it 'should return a list of updated changes' do
+      fixture = File.read('spec/fixtures/products/get_channel_changes.xml')
+      savon.expects(:get_channel_changes).with(message: {since: Date.today}).returns(fixture)
+
+      client = Citybreak::SOAP::Client.new(api_key: 'test')
+      response = client.get_products_changes(Date.today)
+      expect(response[:updated_product][:int].size).to eq(5) # Fixture has 5 entries
+    end
+
+    it 'should raise an error when date is older then 30 days' do
+      client = Citybreak::SOAP::Client.new(api_key: 'test')
+      expect { client.get_products_changes('1950-10-12') }.to raise_error { |error|
+          expect(error).to be_a(Citybreak::Error::DateToOld)
+      }
+    end
+  end
+
   describe '.product_operations' do
     it 'should return a list of all operations, including supported operations' do
       client = Citybreak::SOAP::Client.new(api_key: 'test')

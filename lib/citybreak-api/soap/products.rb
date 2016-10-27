@@ -34,6 +34,15 @@ module Citybreak
         @products_client.operations
       end
 
+      def get_products_changes(date)
+        parsedDate = DateTime.parse(date.to_s)
+        raise Citybreak::Error::DateToOld, 'Date can\'t be older then 30 days' if parsedDate <= (Date.today - 30)
+        msg = {}
+        msg[:apiKey] = Citybreak.config.api_key
+        msg[:since] = parsedDate
+        @products_client.call(:get_channel_changes, message: msg).hash[:envelope][:body][:get_channel_changes_response][:get_channel_changes_result]
+      end
+
       def get_product(id, options={})
         options[:apiKey] = Citybreak.config.api_key
         options[:productId] = id
