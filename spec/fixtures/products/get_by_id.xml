@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetByIdResponse xmlns="http://api.cbis.citybreak.com/">
+            <GetByIdResult>
+                <Id>795863</Id>
+                <SystemName>Best Western Princess</SystemName>
+                <TrackingPixelUrl>http://tracking-info.citybreak.com/tracking/pixel.gif?o=24057&amp;c=17684&amp;p=795863&amp;l=2&amp;t=1</TrackingPixelUrl>
+                <UrlName>Best_Western_Princess_795863</UrlName>
+                <Name>Best Western Princess Hotell</Name>
+                <ForeignProductId>18086</ForeignProductId><CitybreakPackageId xsi:nil="true"/>
+                <ProductReference>cbis:795863</ProductReference>
+                <OrganizationId>24057</OrganizationId>
+                <Version>42</Version>
+                <TemplateId>83</TemplateId>
+                <Image>
+                    <MediaId>68495017</MediaId>
+                    <MediaType>Image</MediaType>
+                    <Url>http://images.citybreak.com/image.aspx?ImageId=4067191</Url>
+                    <Width>1500</Width>
+                    <Height>1001</Height>
+                    <ImageType>Image</ImageType>
+                </Image>
+                <Status>Active</Status>
+                <PublishedDate>2015-06-16T11:03:31.937</PublishedDate>
+                <RevisionDate>2016-10-06T00:00:00</RevisionDate><ExpirationDate xsi:nil="true"/>
+                <Relevance>None</Relevance><ParentProductId xsi:nil="true"/>
+                <ProductType>Product</ProductType>
+                <IsHighlight>false</IsHighlight>
+                <Attributes>
+                    <AttributeData>
+                        <Id>33905382</Id>
+                        <AttributeId>99</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">Best Western Princess Hotell</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>3</Version>
+                        <Language>2</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905381</Id>
+                        <AttributeId>101</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">Best Western Princess Hotel enjoys a central location, with car parking, shops, cultural facilities and restaurants close at hand. It is situated in a quiet neighbourhood, a stone's throw from the beautiful
+                                'Industrilandskapet' (Industrial Landscape).</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>3</Version>
+                        <Language>2</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905379</Id>
+                        <AttributeId>102</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">The hotel has recently been extensively refurbished, giving a modern yet very homely feel. The lobby offers the opportunity for guests to meet and enjoy the café-bar atmosphere. It serves food and drink, and free coffee
+                                and biscuits are available at all times. An extensive breakfast buffet is included in all room rates. The hotel has 117 spacious rooms, all equipped with free wireless Internet and flat-screen TV with free TV1000 movie channels, Viasat Sport, BBC,
+                                Swedish channels 1 to 6 and radio. Guests have free use of the sauna, fitness centre and lobby computers. Single and double rooms are available, and extra beds can be added in some rooms to accommodate up to five people. Reception is staffed 24
+                                hours, enabling us to offer guests food, drink and service all round the clock. In addition to accommodation and breakfast, Best Western Princess Hotel offers a number of advantageous accommodation packages, such as the Kolmården Package, the Golf
+                                Package (with pre-booked start times), the Entertainment Package and the Concert Package. The hotel is non-smoking and bears the Nordic Ecolabel Svanen.
+                            </Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>2</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905380</Id>
+                        <AttributeId>103</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">Latitude: 58.586659 58° 35' 11.97" Longitude: 16.185844 16° 11' 9.04" By foot Leaving the railway station through the exit at the front, walk straight ahead along Drottninggatan. Continue for about 10 minutes until you see
+                                Filmstaden cinema on the right, go through to the back and cross Gamla Rådstugugatan. Go straight ahead down Skomakaregatan and you will see the hotel on your left, at No 8. By tram At the railway station take tram line 3 towards Klockaretorpet and
+                                get out at Söder Tull. Walk down towards Nordea bank, turn left, and then turn right into Gamla Rådstugugatan. Turn left down Skomakaregatan, and you will see the hotel on your left. By car E4 northbound: take the first motorway exit towards
+                                Norrköping city. At the first roundabout, head towards Centrum, second exit on the right, continue straight ahead for a couple of kilometres, turn left into Hörngatan, continue along Gamla Rådstugugatan, and turn left into Skomakaregatan. We are
+                                opposite Filmstaden cinema and McDonald's. E4 southbound: take the first exit towards Norrköping city. At the first roundabout, head towards Centrum and follow the signs to Resecentrum/tågstationen (train station). Turn right at the station (white
+                                building) into Drottninggatan, which is also a tram route. Immediately after the bridge over the river, turn right into Gamla Rådstugugatan. Continue straight ahead for a few kilometres, then turn right into Skomakaregatan. We are opposite Filmstaden
+                                cinema and McDonald's. E22 northbound (via Söderköping): turn left at the first set of traffic lights at the junction of Södra Promenaden and Östra Promenaden, with Medley Centralbadet sports centre on your left. Go down Södra Promenaden until the
+                                second set of traffic lights, where the tram goes past. Turn right into Hörngatan, which becomes Gamla Rådstugugatan one block later. Turn left into Skomakaregatan; we are opposite Filmstaden cinema and McDonald's.
+                            </Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>2</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905383</Id>
+                        <AttributeId>110</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">www.princesshotel.se</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>2</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905374</Id>
+                        <AttributeId>113</AttributeId>
+                        <MetaType>Double</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:double">58.586786</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905375</Id>
+                        <AttributeId>114</AttributeId>
+                        <MetaType>Double</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:double">16.186911</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905385</Id>
+                        <AttributeId>115</AttributeId>
+                        <MetaType>Media</MetaType>
+                        <Value xsi:type="Media"><MediaList/></Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>26</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905369</Id>
+                        <AttributeId>117</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">Skomakaregatan 8</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905370</Id>
+                        <AttributeId>120</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">602 32</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905368</Id>
+                        <AttributeId>121</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">Norrköping</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905376</Id>
+                        <AttributeId>147</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">+46</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>2</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>33905377</Id>
+                        <AttributeId>145</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">28 58 40</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>8</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>35889245</Id>
+                        <AttributeId>146</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">11</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>4</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>35920248</Id>
+                        <AttributeId>161</AttributeId>
+                        <MetaType>String</MetaType>
+                        <Value xsi:type="Value">
+                            <Data xsi:type="xsd:string">info@princesshotel.se</Data>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>0</Id>
+                        <AttributeId>163</AttributeId>
+                        <MetaType>MultiAttribute</MetaType>
+                        <Value xsi:type="MultiAttribute">
+                            <Values>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>163</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>35</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>163</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>38</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>163</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>43</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>163</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>48</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>163</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>215</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>163</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>245</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>163</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>599</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                            </Values>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>0</Id>
+                        <AttributeId>401</AttributeId>
+                        <MetaType>MultiAttribute</MetaType>
+                        <Value xsi:type="MultiAttribute">
+                            <Values>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>40</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>44</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>49</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>50</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>75</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>86</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>194</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>270</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>520</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>542</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>579</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>602</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>649</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>931</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>401</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1566</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                            </Values>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>0</Id>
+                        <AttributeId>353</AttributeId>
+                        <MetaType>MultiAttribute</MetaType>
+                        <Value xsi:type="MultiAttribute">
+                            <Values>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>353</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>42</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>353</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>91</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>353</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>92</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>353</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>93</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>353</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>666</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>353</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1722</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>353</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>2340</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>353</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>905</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                            </Values>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>0</Id>
+                        <AttributeId>418</AttributeId>
+                        <MetaType>MultiAttribute</MetaType>
+                        <Value xsi:type="MultiAttribute">
+                            <Values>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>418</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>85</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>418</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>631</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                            </Values>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>0</Id>
+                        <AttributeId>140</AttributeId>
+                        <MetaType>MultiAttribute</MetaType>
+                        <Value xsi:type="MultiAttribute">
+                            <Values>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>140</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>99</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>140</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>100</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>140</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>101</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>140</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>102</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>140</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>427</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                            </Values>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>0</Id>
+                        <AttributeId>355</AttributeId>
+                        <MetaType>MultiAttribute</MetaType>
+                        <Value xsi:type="MultiAttribute">
+                            <Values>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>355</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>109</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>355</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>603</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>355</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>605</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>355</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>651</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>355</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>835</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>355</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>927</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                            </Values>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>0</Id>
+                        <AttributeId>417</AttributeId>
+                        <MetaType>MultiAttribute</MetaType>
+                        <Value xsi:type="MultiAttribute">
+                            <Values>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>417</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>165</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>417</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>606</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">true</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                            </Values>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>0</Id>
+                        <AttributeId>315</AttributeId>
+                        <MetaType>MultiAttribute</MetaType>
+                        <Value xsi:type="MultiAttribute">
+                            <Values>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>315</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1018</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>315</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1853</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>315</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1854</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>315</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1019</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>315</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1855</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>315</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1022</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>315</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1023</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>315</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1021</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>315</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1024</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                            </Values>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                    <AttributeData>
+                        <Id>0</Id>
+                        <AttributeId>354</AttributeId>
+                        <MetaType>MultiAttribute</MetaType>
+                        <Value xsi:type="MultiAttribute">
+                            <Values>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>354</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>1032</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>354</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>907</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                                <MultiAttributeObject>
+                                    <Id>0</Id>
+                                    <AttributeId>354</AttributeId>
+                                    <ProductId>795863</ProductId>
+                                    <OrganizationId>24057</OrganizationId>
+                                    <MultiAttributeId>844</MultiAttributeId>
+                                    <MetaType>Boolean</MetaType>
+                                    <Value xsi:type="Value">
+                                        <Data xsi:type="xsd:boolean">false</Data>
+                                    </Value>
+                                    <Language>0</Language>
+                                </MultiAttributeObject>
+                            </Values>
+                        </Value>
+                        <ProductId>795863</ProductId>
+                        <OrganizationId>24057</OrganizationId>
+                        <Version>1</Version>
+                        <Language>0</Language>
+                    </AttributeData>
+                </Attributes>
+                <Categories>
+                    <Category>
+                        <Id>29398</Id>
+                        <OrganizationId>24057</OrganizationId>
+                        <Name>Hotel</Name>
+                        <DefaultTemplateId>83</DefaultTemplateId>
+                        <Status>Active</Status><ParentCategoryId xsi:nil="true"/>
+                        <DisplayOrder>7</DisplayOrder><Icon xsi:nil="true"/></Category>
+                </Categories>
+                <GeoNode>
+                    <Id>85981</Id>
+                    <Name>Norrköping City</Name>
+                    <ParentId>85978</ParentId>
+                    <OrgId>24057</OrgId>
+                    <Type>Undefined</Type>
+                    <LeftValue>7</LeftValue>
+                    <RightValue>8</RightValue><CityCenterLatitude xsi:nil="true"/><CityCenterLongitude xsi:nil="true"/><CityCenterRadius xsi:nil="true"/></GeoNode><Occasions/><SupplierId xsi:nil="true"/>
+                <POIs><POIs/></POIs><Duration xsi:nil="true"/><ForeignProductIds/></GetByIdResult>
+        </GetByIdResponse>
+    </soap:Body>
+</soap:Envelope>

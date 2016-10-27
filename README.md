@@ -66,6 +66,21 @@ client.get_products
 client.get_products(languageId: 1, itemsPerPage: 40)
 ```
 
+###### get_product
+```ruby
+## Retrieve a product
+# @param id
+# @param options (optional)
+# returns {
+#  :id => ...,
+#  ...
+# }
+
+client.get_product(123)
+# or
+client.get_product(123, languageId: 1)
+```
+
 ##### Call specific operation
 If you want to call and handle the result from the Savon client itself you can call operations with this method
 

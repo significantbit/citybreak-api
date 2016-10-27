@@ -25,6 +25,19 @@ describe Citybreak::SOAP::Products do
     end
   end
 
+  describe '.get_product' do
+    it 'returns result when id is sent' do
+      id = 795863
+      fixture = File.read('spec/fixtures/products/get_by_id.xml')
+      savon.expects(:get_by_id).with(message: {productId: id}).returns(fixture)
+
+      client = Citybreak::SOAP::Client.new(api_key: 'test')
+      response = client.get_product(id)
+
+      expect(response[:id].to_i).to eq(id)
+    end
+  end
+
   describe '.product_operations' do
     it 'should return a list of all operations, including supported operations' do
       client = Citybreak::SOAP::Client.new(api_key: 'test')

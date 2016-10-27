@@ -1,9 +1,15 @@
 module Citybreak
   module SOAP
     module Products
+      DEFAULT_LANGUAGE = 2
 
-      DEFAULT_OPTIONS = {
-        languageId: 2,
+      DEFAULT_GET_OPTIONS = {
+        languageId: DEFAULT_LANGUAGE,
+        templateId: 0
+      }
+
+      DEFAULT_LIST_OPTIONS = {
+        languageId: DEFAULT_LANGUAGE,
         categoryId: 0,
         templateId: 0,
         pageOffset: 0,
@@ -28,9 +34,16 @@ module Citybreak
         @products_client.operations
       end
 
+      def get_product(id, options={})
+        options[:apiKey] = Citybreak.config.api_key
+        options[:productId] = id
+        msg = DEFAULT_GET_OPTIONS.merge(options)
+        @products_client.call(:get_by_id, message: msg).hash[:envelope][:body][:get_by_id_response][:get_by_id_result]
+      end
+
       def get_products(options={})
         options[:apiKey] = Citybreak.config.api_key
-        msg = DEFAULT_OPTIONS.merge(options)
+        msg = DEFAULT_LIST_OPTIONS.merge(options)
         @products_client.call(:list_all, message: msg).hash[:envelope][:body][:list_all_response][:list_all_result]
       end
     end
