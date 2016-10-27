@@ -1,5 +1,5 @@
 # Citybreak-api
-
+[![Build Status](https://travis-ci.org/significantbit/citybreak-api.svg?branch=master)](https://travis-ci.org/significantbit/citybreak-api)
 ## Installation
 
 ** !!! NOTE: NOT YET AVAILABLE !!! **
