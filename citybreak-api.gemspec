@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.require_paths = ['lib']
 
+  s.add_dependency 'sawyer', '>= 0.7.0', '~> 0.7.0'
   s.add_runtime_dependency 'savon', '>= 2.11.0', '< 3.0.0'
 
   s.add_development_dependency 'rspec', '>= 3.5.0', '< 4.0.0'

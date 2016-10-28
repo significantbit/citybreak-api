@@ -4,7 +4,8 @@ module Citybreak
       attr_accessor :api_key,
                     :wsdl_products,
                     :wsdl_categories,
-                    :wsdl_templates
+                    :wsdl_templates,
+                    :rest_endpoint
 
       attr_reader :api_endpoint
 
@@ -16,6 +17,7 @@ module Citybreak
       def reset
         @api_key = nil
         @api_endpoint = 'http://api.cbis.citybreak.com'
+        @rest_endpoint = "https://cbis-rest-api.citybreak.com/v1/api"
         set_wsdl
       end
 
