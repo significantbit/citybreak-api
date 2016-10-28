@@ -16,17 +16,18 @@ or in Gemfile
 ```
 
 ## API:s Available
-- CBIS SOAP API
+- CBIS REST API
+- CBIS SOAP API (DEPRECATED)
+
 
 ## Not Available (yet?)
 - Online 3 Linking API
 - Online 3 Event REST API
 - Citybreak booking Statfeed API
-- CBIS Export API
 
 ## Usage
 
-### CBIS SOAP API
+### CBIS SOAP API (!!DEPRECATED!!)
 #### Setup a SOAP client
 ```ruby
 client = Citybreak::SOAP::Client.new(api_key: 'API_KEY')
