@@ -40,64 +40,9 @@ end
 client = Citybreak::SOAP::Client.new
 ```
 
-#### Methods
+#### Documentation
 
-##### Products
-
-###### products_operations
-If you want to expose all available operations call:
-```ruby
-client.products_operations #=> [:get_products...]
-```
-
-###### get_products
-```ruby
-## Retrieve all products
-# @param options (optional)
-# returns {
-#  :total_results => ..,
-#  :total_pages => ..,
-#  :page_index => ..,
-#  :page_size => ..,
-#  :items => {:products => [...]}
-# }
-
-client.get_products
-# or
-client.get_products(languageId: 1, itemsPerPage: 40)
-```
-
-###### get_product
-```ruby
-## Retrieve a product
-# @param id
-# @param options (optional)
-# returns {
-#  :id => ...,
-#  ...
-# }
-
-client.get_product(123)
-# or
-client.get_product(123, languageId: 1)
-```
-
-###### get_products_changes
-```ruby
-## Retrieve changes to products since specific date
-# (Date can't be older then 30 days)
-# @param date
-# @param options (optional)
-# returns {
-#  :updated_product => [...],
-#  :added_product => [...],
-#  :deleted_product => [...],
-# }
-
-client.get_products_changes('2016-01-01')
-# or
-client.get_products_changes(Date.today)
-```
+[Products Documentation](https://github.com/significantbit/upplev-backend/wiki/SOAP-::-Product-API)
 
 ##### Call specific operation
 If you want to call and handle the result from the Savon client itself you can call operations with this method
