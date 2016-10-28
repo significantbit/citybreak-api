@@ -42,7 +42,7 @@ client = Citybreak::SOAP::Client.new
 
 #### Documentation
 
-[Products Documentation](https://github.com/significantbit/upplev-backend/wiki/SOAP-::-Product-API)
+[Products Documentation](https://github.com/significantbit/citybreak-api/wiki/SOAP-::-Product-API)
 
 ##### Call specific operation
 If you want to call and handle the result from the Savon client itself you can call operations with this method
