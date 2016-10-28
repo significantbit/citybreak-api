@@ -27,6 +27,20 @@ or in Gemfile
 
 ## Usage
 
+### CBIS REST API
+#### Setup a REST client
+```ruby
+client = Citybreak::REST::Client.new(api_key: 'API_KEY')
+```
+
+Or you can also skip to set the api_key option if you configurated it before
+```ruby
+Citybreak.config do |config|
+  api_key = 'API_KEY'
+end
+client = Citybreak::REST::Client.new
+```
+
 ### CBIS SOAP API (!!DEPRECATED!!)
 #### Setup a SOAP client
 ```ruby
