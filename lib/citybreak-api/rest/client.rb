@@ -1,9 +1,11 @@
+require_relative 'attributes'
 require_relative 'products'
 require 'sawyer'
 
 module Citybreak
   module REST
     class Client
+      include Citybreak::REST::Attributes
       include Citybreak::REST::Products
 
       def initialize(options = {})
@@ -24,11 +26,7 @@ module Citybreak
       end
 
       def request(method, path, data, options = {})
-        options[:headers] = {}
-        options[:headers][:ApiKey] = Citybreak::Config.api_key
-        response = agent.call(method, URI::Parser.new.escape(path.to_s), data, options)
-        pp response.inspect
-        pp agent.inspect
+        response = agent.call(method, URI::Parser.new.escape("#{endpoint}#{path.to_s}"), data, options)
         response.data
       end
 
@@ -39,7 +37,7 @@ module Citybreak
         @agent ||= Sawyer::Agent.new(endpoint) do |http|
           http.headers[:content_type] = "application/json"
           http.headers[:Accept] = "application/json"
-          http.headers[:ApiKey] = Citybreak::Config.api_key
+          http.headers[:apikey] = Citybreak::Config.api_key
         end
       end
 
