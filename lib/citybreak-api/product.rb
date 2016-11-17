@@ -19,5 +19,23 @@ module Citybreak
       @occasions = values[:Occasions]
       @media = values[:Media]
     end
+
+    def as_json(options={})
+      {
+        Id: @id,
+        Name: @name,
+        ParentId: @parentId,
+        InformationData: @information.map {|i| i.to_h},
+        Position: @position,
+        ExpiresAt: @expires_at,
+        Occasions: @occasions,
+        Media: @media.map {|m| m.to_h}
+      }
+    end
+
+    def to_json(*options)
+      as_json(*options).to_json(*options)
+    end
+
   end
 end
