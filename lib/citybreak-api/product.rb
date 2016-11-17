@@ -10,7 +10,6 @@ module Citybreak
                   :media
 
     def initialize(values = {})
-      pp values
       @id = values[:Id.to_s]
       @name = values[:Name.to_s]
       @parentId = values[:ParentId.to_s]
