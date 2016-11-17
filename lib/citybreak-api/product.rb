@@ -7,7 +7,7 @@ module Citybreak
                   :position,
                   :expires_at,
                   :occasions,
-                  :categores,
+                  :categories,
                   :media
 
     def initialize(values = {})
