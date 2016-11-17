@@ -7,11 +7,13 @@ module Citybreak
                   :position,
                   :expires_at,
                   :occasions,
+                  :categores,
                   :media
 
     def initialize(values = {})
       @id = values[:Id.to_s]
       @name = values[:Name.to_s]
+      @categories = values[:Categories.to_s]
       @parentId = values[:ParentId.to_s]
       @information = values[:InformationData.to_s]
       @position = values[:Position.to_s]
@@ -24,6 +26,7 @@ module Citybreak
       {
         Id: @id,
         Name: @name,
+        Categories: @categories,
         ParentId: @parentId,
         InformationData: @information.map {|i| i.to_h},
         Position: @position.to_h,

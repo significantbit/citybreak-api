@@ -1,5 +1,6 @@
 require_relative 'attributes'
 require_relative 'products'
+require_relative 'categories'
 require 'sawyer'
 
 module Citybreak
@@ -7,6 +8,7 @@ module Citybreak
     class Client
       include Citybreak::REST::Attributes
       include Citybreak::REST::Products
+      include Citybreak::REST::Categories
 
       def initialize(options = {})
         # Set configuration with options if they are set

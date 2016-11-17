@@ -4,6 +4,7 @@ require_relative 'citybreak-api/soap'
 require_relative 'citybreak-api/rest'
 require_relative 'citybreak-api/product'
 require_relative 'citybreak-api/products_collection'
+require_relative 'citybreak-api/category'
 
 require 'savon'
 
