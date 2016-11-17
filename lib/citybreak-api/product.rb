@@ -26,9 +26,9 @@ module Citybreak
         Name: @name,
         ParentId: @parentId,
         InformationData: @information.map {|i| i.to_h},
-        Position: @position,
+        Position: @position.to_h,
         ExpiresAt: @expires_at,
-        Occasions: @occasions,
+        Occasions: @occasions.map {|o| o.to_h},
         Media: @media.map {|m| m.to_h}
       }
     end
