@@ -10,14 +10,15 @@ module Citybreak
                   :media
 
     def initialize(values = {})
-      @id = values[:Id]
-      @name = values[:Name]
-      @parentId = values[:ParentId]
-      @information = values[:InformationData]
-      @position = values[:Position]
-      @expires_at = Date.new(values[:ExpiresAt]) unless @expires_at.nil?
-      @occasions = values[:Occasions]
-      @media = values[:Media]
+      pp values
+      @id = values[:Id.to_s]
+      @name = values[:Name.to_s]
+      @parentId = values[:ParentId.to_s]
+      @information = values[:InformationData.to_s]
+      @position = values[:Position.to_s]
+      @expires_at = Date.new(values[:ExpiresAt.to_s]) unless @expires_at.nil?
+      @occasions = values[:Occasions.to_s]
+      @media = values[:Media.to_s]
     end
 
     def as_json(options={})
