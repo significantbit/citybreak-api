@@ -1,5 +1,6 @@
 require_relative 'attributes'
 require_relative 'products'
+require_relative 'geo_references'
 require_relative 'categories'
 require 'sawyer'
 
@@ -9,6 +10,7 @@ module Citybreak
       include Citybreak::REST::Attributes
       include Citybreak::REST::Products
       include Citybreak::REST::Categories
+      include Citybreak::REST::GeoReferences
 
       def initialize(options = {})
         # Set configuration with options if they are set
