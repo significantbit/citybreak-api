@@ -5,6 +5,7 @@ module Citybreak
                   :parentId,
                   :information,
                   :position,
+                  :geos,
                   :expires_at,
                   :occasions,
                   :categories,
@@ -13,6 +14,7 @@ module Citybreak
     def initialize(values = {})
       @id = values[:Id.to_s]
       @name = values[:Name.to_s]
+      @geos = values[:GeoReferences.to_s]
       @categories = values[:Categories.to_s]
       @parentId = values[:ParentId.to_s]
       @information = values[:InformationData.to_s]
@@ -28,6 +30,7 @@ module Citybreak
         Name: @name,
         Categories: @categories,
         ParentId: @parentId,
+        GeoReferences: @geos,
         InformationData: @information.map {|i| i.to_h},
         Position: @position.to_h,
         ExpiresAt: @expires_at,
